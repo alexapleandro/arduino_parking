@@ -1,0 +1,9 @@
+<h2>lista</h2>
+
+<ul>
+	<li ng-repeat="item in lista">
+	cod: {{item.$id}}, 	Vaga: {{item.vaga}}, Status: {{item.status}}
+		<a ng-href="#/vaga/{{item.$id}}">Editar</a>
+        <button ng-click="remover(item.$id)">Deletar</a>
+	</li>
+</ul>
