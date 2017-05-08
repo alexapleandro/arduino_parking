@@ -1,0 +1,27 @@
+get
+https://auto-parking-fcv.firebaseio.com/vagas.json
+
+get id
+https://auto-parking-fcv.firebaseio.com/vagas/"id sem aspas".json
+
+post
+no body: aplication json
+{
+ "vaga": 5,
+    
+	"logs": {
+ "data": "16/05/2017",
+      
+	          "status": false
+    
+		 },
+    
+"status": true
+  
+}
+
+delete 
+https://auto-parking-fcv.firebaseio.com/vagas/"id sem aspas".json
+
+put
+https://auto-parking-fcv.firebaseio.com/vagas/"id sem aspas".json
